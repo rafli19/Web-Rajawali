@@ -1,0 +1,397 @@
+body{
+	background-image: url('../img/tk-bg1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img_logo{
+	width: 293px;
+	height: 95px;
+	margin: 26px 0 0 50px;
+	float: left;
+}
+
+ul{
+	float: right;
+	margin: 55px;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 16px;
+	padding-top: 60px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	margin: 0 20px;
+}
+
+
+.header{
+	background-color: white;
+	height: 150px;
+}
+
+.a-header{
+	color: #24a0ed;
+}
+
+.a-header:hover{
+	text-decoration: none;
+}
+
+#dropdownMenuLink{
+	background-color: transparent;
+	color: #24a0ed;
+	border: 0px;
+}
+
+#dropdownMenuLink:hover{
+	border: 0px solid white;
+}
+
+.dropdown-item{
+	margin: 0;
+}
+
+/*--------------------------------Content1--------------------------------*/
+
+.TK-content1{
+	float: left;
+	width: 400px;
+	margin: 50px 0 0 80px;
+}
+
+.hr1{
+	width: 65px;
+	border: 2px solid yellow;
+	margin: 230px 0px 40px 220px;
+}
+
+/*--------------------------------Content2--------------------------------*/
+
+.TK-content2{
+	width: 400px;
+	margin: 10px 0px 0px 80px;
+	font-family: sans-serif;
+	text-align: justify;
+}
+
+/*--------------------------------Content3--------------------------------*/
+
+.content3-lb{
+	margin: 100px 0px 0px 350px;
+	text-align: center;
+	width: 600px;
+	font-size: 48px;
+	color: black;
+}
+
+.p-content3{
+	margin-top: 30px;
+	width: 600px;
+	text-align: center;
+	margin: 50px 0px 150px 350px;
+}
+
+/*--------------------------------Info--------------------------------*/
+
+.flex-content3{
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.content3-location{
+	width: 300px;
+	height: 250px;
+	border: solid 2px blue;
+	margin-top: 10px;
+	margin-left: 200px;
+	background-color: #99a1ff;
+	align-content: left;
+}
+
+.content3-working-hours{
+	width: 300px;
+	height: 250px;
+	border-top: solid 2px blue;
+	border-bottom: solid 2px blue;
+	margin-top: 10px;
+	background-color: #99a1ff;
+	align-content: center;
+}
+
+.content3-contact-us{
+	width: 300px;
+	height: 250px;
+	border: solid 2px blue;
+	margin-top: 10px;
+	background-color: #99a1ff;
+	align-content: right;
+}
+
+.bag-location{
+	text-align: center;
+}
+
+.bag-working-hours{
+	text-align: center;
+}
+
+.bag-contact-us{
+	text-align: center;
+}
+
+.img-location{
+	width: 50px;
+	height: 50px;
+	margin: 25px;
+}
+
+.img-working-hours{
+	width: 50px;
+	height: 50px;
+	margin: 25px;
+}
+
+.img-contact-us{
+	width: 50px;
+	height: 50px;
+	margin: 25px;
+}
+
+.p-jlocation{
+	font-family: sans-serif;
+	font-size: 24px;
+}
+
+.p-jworking-hours{
+	font-family: sans-serif;
+	font-size: 24px;
+}
+
+.p-jcontact-us{
+	font-family: sans-serif;
+	font-size: 24px;
+}
+
+.p-location{
+	font-family: sans-serif;
+	font-size: 16px;
+	padding: 10px 30px 10px 30px;
+}
+
+.p-working-hours{
+	font-family: sans-serif;
+	font-size: 16px;
+	padding: 10px 30px 10px 30px;
+}
+
+.p-contact-us{
+	font-family: sans-serif;
+	font-size: 16px;
+	padding: 10px 30px 10px 30px;
+}
+
+/*-----------------------------Footer-----------------------------*/
+
+.contact-footer{
+	background-color: #000473;
+	color: white;
+	font-family: sans-serif;
+	margin-top: 100px;
+}
+
+.flex-footer{
+	display: flex;
+}
+
+.logo-footer{
+	padding-top: 100px;
+	margin: 0px 80px 80px 80px;
+}
+
+.contact-info{
+	margin-top: 100px;
+	width: 400px;
+	background-color: #000473;
+	height: 300px;
+}
+
+.h4-contact-info{
+	margin-left: 23px;
+}
+
+.contact-info ul{
+	margin: 0;
+	padding: 0;
+}
+
+.li-loc{
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+.li-call{
+	margin: 0px;
+	padding: 20px 0 0 0;
+}
+
+.li-email{
+	margin: 0px;
+	padding: 20px 0 0 0;
+}
+
+.li-whatsapp{
+	margin: 0px;
+	padding: 20px 0 0 0;
+}
+
+.icon-loc{
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	margin-top: 14px;
+}
+
+.a-loc{
+	text-decoration: none;
+	color: white;
+	display: flex;
+}
+
+.a-loc:hover{
+	text-decoration: none;
+	transition-duration: 0.5s;
+	color: red;
+}
+
+.icon-call{
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+.a-call{
+	text-decoration: none;
+	color: white;
+	display: flex;
+}
+
+.a-call:hover{
+	text-decoration: none;
+	transition-duration: 0.5s;
+	color: red;
+}
+
+.icon-email{
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	margin-top: 1px;
+}
+
+.a-email{
+	text-decoration: none;
+	color: white;
+	display: flex;
+}
+
+.a-email:hover{
+	text-decoration: none;
+	transition-duration: 0.5s;
+	color: red;
+}
+
+.icon-whatsapp{
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	margin-top: 1px;
+}
+
+.a-whatsapp{
+	text-decoration: none;
+	color: white;
+	display: flex;
+}
+
+.a-whatsapp:hover{
+	text-decoration: none;
+	transition-duration: 0.5s;
+	color: red;
+}
+
+.services-kami{
+	margin: 100px 0px 10px 0px;
+	background-color: #000473;
+	width: 400px;
+	height: 300px;
+}
+
+.h4-services-kami{
+	margin-left: 23px;
+}
+
+.services-kami ul{
+	margin: 0;
+	padding: 0;
+}
+
+.li-JTD{
+	margin: 0px;
+	padding: 20px 0 0 0;
+}
+
+
+.li-SS{
+	margin: 0px;
+	padding: 20px 0 0 0;
+}
+
+.icon-right-arrow{
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+.a-JTD{
+	text-decoration: none;
+	color: white;
+	display: flex;
+}
+
+.a-JTD:hover{
+	text-decoration: none;
+	transition-duration: 0.5s;
+	color: red;
+}
+
+.a-SS{
+	text-decoration: none;
+	color: white;
+	display: flex;
+}
+
+.a-SS:hover{
+	text-decoration: none;
+	transition-duration: 0.5s;
+	color: red;
+}
+
+.copyright hr{
+	border: 0.5px solid grey;
+}
+
+.copyright p{
+	font-family: sans-serif;
+	margin: 0px 0px 0px 80px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}

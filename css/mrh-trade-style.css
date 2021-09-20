@@ -1,0 +1,316 @@
+body{
+	margin: 0 auto;
+	background-image: url('../img/tk-bg1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.img_logo{
+	width: 293px;
+	height: 95px;
+	margin: 26px 0 0 50px;
+	float: left;
+}
+
+ul{
+	float: right;
+	margin: 55px;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 16px;
+	padding-top: 60px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	margin: 0 20px;
+}
+
+
+.header{
+	background-color: white;
+	height: 150px;
+}
+
+.a-header{
+	color: #24a0ed;
+}
+
+.a-header:hover{
+	text-decoration: none;
+}
+
+#dropdownMenuLink{
+	background-color: transparent;
+	color: #24a0ed;
+	border: 0px;
+}
+
+#dropdownMenuLink:hover{
+	border: 0px solid white;
+}
+
+.dropdown-item{
+	margin: 0;
+}
+
+.mrh-trade-content1{
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*---------------------------Content2---------------------------*/
+
+.mrh-trade-content2{
+	margin: 100px auto 100px auto;
+	font-family: sans-serif;
+	font-weight: bold;
+	width: 500px;
+}
+
+.mrh-trade-content2 h1{
+	font-family: sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.hr-content2-first{
+	width: 80px;
+	border: 2px solid yellow;
+	margin-left: 200px;
+	margin-bottom: 30px;
+}
+
+.judul-ss{
+	font-style: italic;
+	margin: 15px 0 15px 0px;
+	width: 300px;
+}
+
+.isi-ss{
+	text-align: justify;
+	width: 400px;
+	margin: 0 auto 0  auto;
+	line-height: 2;
+}
+
+.hr-content2-last{
+	border: 1px solid blue;
+	margin-bottom: 50px;
+}
+
+/*---------------------------Content3---------------------------*/
+
+.img1-content3{
+	margin-left: 100px;
+}
+
+.img2-content3{
+	margin-left: 100px;
+}
+
+/*-----------------------------Footer-----------------------------*/
+
+.contact-footer{
+	background-color: #000473;
+	color: white;
+	font-family: sans-serif;
+	margin-top: 100px;
+}
+
+.flex-footer{
+	display: flex;
+}
+
+.logo-footer{
+	padding-top: 100px;
+	margin: 0px 80px 80px 80px;
+}
+
+.contact-info{
+	margin-top: 100px;
+	width: 400px;
+	background-color: #000473;
+	height: 300px;
+}
+
+.h4-contact-info{
+	margin-left: 23px;
+}
+
+.contact-info ul{
+	margin: 0;
+	padding: 0;
+}
+
+.li-loc{
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+.li-call{
+	margin: 0px;
+	padding: 20px 0 0 0;
+}
+
+.li-email{
+	margin: 0px;
+	padding: 20px 0 0 0;
+}
+
+.li-whatsapp{
+	margin: 0px;
+	padding: 20px 0 0 0;
+}
+
+.icon-loc{
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	margin-top: 14px;
+}
+
+.a-loc{
+	text-decoration: none;
+	color: white;
+	display: flex;
+}
+
+.a-loc:hover{
+	text-decoration: none;
+	transition-duration: 0.5s;
+	color: red;
+}
+
+.icon-call{
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+.a-call{
+	text-decoration: none;
+	color: white;
+	display: flex;
+}
+
+.a-call:hover{
+	text-decoration: none;
+	transition-duration: 0.5s;
+	color: red;
+}
+
+.icon-email{
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	margin-top: 1px;
+}
+
+.a-email{
+	text-decoration: none;
+	color: white;
+	display: flex;
+}
+
+.a-email:hover{
+	text-decoration: none;
+	transition-duration: 0.5s;
+	color: red;
+}
+
+.icon-whatsapp{
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+	margin-top: 1px;
+}
+
+.a-whatsapp{
+	text-decoration: none;
+	color: white;
+	display: flex;
+}
+
+.a-whatsapp:hover{
+	text-decoration: none;
+	transition-duration: 0.5s;
+	color: red;
+}
+
+.services-kami{
+	margin: 100px 0px 10px 0px;
+	background-color: #000473;
+	width: 400px;
+	height: 300px;
+}
+
+.h4-services-kami{
+	margin-left: 23px;
+}
+
+.services-kami ul{
+	margin: 0;
+	padding: 0;
+}
+
+.li-JTD{
+	margin: 0px;
+	padding: 20px 0 0 0;
+}
+
+
+.li-SS{
+	margin: 0px;
+	padding: 20px 0 0 0;
+}
+
+.icon-right-arrow{
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+.a-JTD{
+	text-decoration: none;
+	color: white;
+	display: flex;
+}
+
+.a-JTD:hover{
+	text-decoration: none;
+	transition-duration: 0.5s;
+	color: red;
+}
+
+.a-SS{
+	text-decoration: none;
+	color: white;
+	display: flex;
+}
+
+.a-SS:hover{
+	text-decoration: none;
+	transition-duration: 0.5s;
+	color: red;
+}
+
+.copyright hr{
+	border: 0.5px solid grey;
+}
+
+.copyright p{
+	font-family: sans-serif;
+	margin: 0px 0px 0px 80px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
